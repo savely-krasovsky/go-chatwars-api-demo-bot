@@ -9,7 +9,7 @@ import (
 func Start(update Update) (*tgbotapi.Message, error) {
 	msg := tgbotapi.NewMessage(
 		update.Message.Chat.ID,
-		"Hello! It's demo bot powered by <a href=\"https://github.com/L11R/go-chatwars-api\">go-chatwars-bot</a>.\nClick /auth to see how it works.",
+		"Hello! It's demo bot powered by <a href=\"https://github.com/L11R/go-chatwars-api\">go-chatwars-api</a> lib. You can find my code <a href=\"https://github.com/L11R/go-chatwars-api-demo-bot\">here</a>. Click /auth to see how it works.",
 	)
 	msg.ParseMode = "HTML"
 
