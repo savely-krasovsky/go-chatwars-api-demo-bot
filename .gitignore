@@ -18,6 +18,7 @@
 
 # go dep
 vendor
+Gopkg.lock
 
 # Main configuration file
 config.yml
@@ -25,3 +26,6 @@ config.yml
 # Database file
 users.db
 users.db.lock
+
+# Binary
+bot
