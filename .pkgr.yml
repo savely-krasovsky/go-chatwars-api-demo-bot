@@ -1,3 +1,0 @@
-after:
-  - mv bin/go-chatwars-api-demo-bot bin/bot
-buildpack: https://github.com/heroku/heroku-buildpack-go.git

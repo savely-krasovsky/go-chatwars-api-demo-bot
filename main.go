@@ -29,7 +29,7 @@ func (u Update) Handle(c func(update Update) (*tgbotapi.Message, error)) {
 			sugar.Warn(err)
 		}
 
-		sugar.Debug( string(b))
+		sugar.Debug(string(b))
 	}
 }
 
